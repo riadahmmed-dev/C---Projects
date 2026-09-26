@@ -7,8 +7,7 @@ int main() {
     int balance = 150000;
     int choice;
     int amount;
-
-    // PIN Login
+    
     cout << "===== ATM SIMULATOR =====" << endl;
     cout << "Enter PIN: ";
     cin >> pin;
@@ -20,7 +19,6 @@ int main() {
 
     cout << "Login successful!" << endl;
 
-    // ATM Menu
     while (true) {
 
         cout << "\n===== ATM MENU =====" << endl;
